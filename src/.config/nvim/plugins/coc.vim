@@ -1,3 +1,6 @@
+" disable startap warnings for old neovim setup
+let g:coc_disable_startup_warning = 1
+
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
 set encoding=utf-8
