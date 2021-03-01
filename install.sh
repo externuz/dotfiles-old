@@ -6,6 +6,8 @@ DOTFILES=( ".config/nvim" ".zprofile" ".zshrc" ".tmux.conf" )
 
 main() {
 
+  mkdir -p "${HOME}/.config"
+
   while [ $# -gt 0 ]; do
     case $1 in
       --update) TEXT_ADDED_OR_UPDATED='updated';;
