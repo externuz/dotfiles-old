@@ -9,6 +9,7 @@ Plug 'preservim/nerdtree', { 'on': ['NERDTree', 'NERDTreeToggle'] }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 Plug 'romainl/vim-cool'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 

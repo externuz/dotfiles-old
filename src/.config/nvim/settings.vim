@@ -12,7 +12,7 @@ set cmdheight=2              " more space to show messages
 set splitbelow               " h splits will be below
 set splitright               " v splits will be right
 set laststatus=0             " always display the status line
-set number                   " show line numbers
+set relativenumber           " show relative line numbers
 " set cursorline               " enable highlighting of the current line
 set background=dark          " dark mode
 " set showtabline=2            " always show tabs
