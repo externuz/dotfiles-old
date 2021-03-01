@@ -1,3 +1,6 @@
+" install coc extensions by default
+let g:coc_global_extensions = ['coc-eslint', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver']
+
 " disable startap warnings for old neovim setup
 let g:coc_disable_startup_warning = 1
 

@@ -1,5 +1,5 @@
 ## customizations
-PROMPT='%~ %F{blue}$%f '
+PROMPT='%F{green}%n@%m%f %~ %F{blue}$%f '
 
 # allow autocomplete for hidden files
 setopt globdots
