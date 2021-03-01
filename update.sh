@@ -13,7 +13,7 @@ fi
 
 cd ~/.dotfiles
 git pull -q
-sh ./install.sh --update
+./install.sh --update
 cd - >/dev/null
 
 printf "${C_GREEN}SUCCESS:${C_RES} configs successfully updated\n"
