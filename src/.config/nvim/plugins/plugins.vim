@@ -1,5 +1,6 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'sheerun/vim-polyglot'
@@ -17,4 +18,5 @@ exec 'source' . g:path_config_plugins . '/airline.vim'
 exec 'source' . g:path_config_plugins . '/coc.vim'
 exec 'source' . g:path_config_plugins . '/fzf.vim'
 exec 'source' . g:path_config_plugins . '/nerdtree.vim'
-exec 'source' . g:path_config_plugins . '/onedark.vim'
+exec 'source' . g:path_config_plugins . '/gruvbox.vim'
+" exec 'source' . g:path_config_plugins . '/onedark.vim'
