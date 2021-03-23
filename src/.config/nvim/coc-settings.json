@@ -1,13 +1,5 @@
 {
 	"coc.preferences.formatOnSaveFiletypes": ["css", "json", "markdown", "typescript", "typescriptreact"],
-	"html.autoClosingTags": true,
-	"html.filetypes": [
-		"blade",
-		"handlebars",
-		"html",
-		"htmldjango",
-		"typescriptreact"
-	],
 	"pairs.enableCharacters": [
 		"(",
 		"[",
